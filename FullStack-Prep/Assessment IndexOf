@@ -1,0 +1,17 @@
+/*
+ * Complete the function below.
+ */
+function indexOf(str, queryStr) {
+    
+    var strArr = str.split('');
+    var temArr = [];
+    
+    for(var i =0; i<strArr.length; i++){
+        tempArr = strArr.slice(i,i+queryStr.length);
+            if(tempArr.join('')===queryStr){
+                return i;
+            }
+    }
+    
+    return -1;
+}
