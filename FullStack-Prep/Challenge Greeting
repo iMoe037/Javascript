@@ -1,0 +1,14 @@
+/*
+ * Complete the function below.
+ */
+function greeting(name) {
+    var full = "Hello";
+    if(name ===""){
+        full+="!";
+    }
+    else{
+    full += ", "+ name +"!";
+    }
+    return full;
+}
+greeting("");
