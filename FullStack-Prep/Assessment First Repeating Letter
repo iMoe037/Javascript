@@ -1,0 +1,14 @@
+/*
+ * Complete the function below.
+ */
+function firstRepeatingLetter(str) {
+  var strArr = str.split('');
+  for(var x = 0; x<strArr.length;x++){
+      for(var y = x+1;y<strArr.length;y++){
+          if(strArr[x]===strArr[y]){
+              return strArr[x];
+          }
+      }
+  }
+
+}
