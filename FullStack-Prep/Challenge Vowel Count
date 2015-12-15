@@ -1,0 +1,15 @@
+/*
+ * Complete the function below.
+ */
+function vowelCount(str) {
+    
+    var numOfVowels = 0;
+    var seperate = str.toLowerCase().split('');
+    
+    for(var i =0; i<seperate.length; i++){
+        if(seperate[i]==='a'||seperate[i]==='e'||seperate[i]==='i'||seperate[i]==='o'||seperate[i]==='u'){
+            numOfVowels++;
+        }
+    }
+    return numOfVowels;
+}
