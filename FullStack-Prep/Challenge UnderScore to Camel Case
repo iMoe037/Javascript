@@ -1,0 +1,17 @@
+/*
+ * Complete the function below.
+ */
+function underToCamel(underName) {
+
+    var underNameArray = underName.split('');
+    for(var i =0; i<underNameArray.length;i++){
+        if(underNameArray[i]==="_"){
+            delete underNameArray[i];
+            underNameArray[i+1]=underNameArray[i+1].toUpperCase();
+        }
+    }
+    return underNameArray.join('');
+}
+
+
+underToCamel("immad_moe");
