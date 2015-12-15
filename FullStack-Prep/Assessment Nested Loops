@@ -1,0 +1,15 @@
+/*
+ * Complete the function below.
+ */
+function rightTriangle(rows) {
+    
+    var drawTri = "";
+    
+    for(var x =0; x<rows; x++){
+        for(var y = x+1; y<=rows; y++){
+            drawTri+="*";
+        }
+        drawTri+= "\n";
+    }
+    return drawTri;
+} 
