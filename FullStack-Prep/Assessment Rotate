@@ -1,0 +1,14 @@
+/*
+ * Complete the function below.
+ */
+function rotate(arr, steps) {
+    
+    var out ="";
+    
+    for(var i =0; i<steps; i++){
+        out = arr.pop();
+        arr.unshift(out);
+    }
+    return arr;
+}
+
