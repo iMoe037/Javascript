@@ -1,0 +1,21 @@
+/*
+ * Complete the function below.
+ */
+function countDuplicates(arr) {
+    
+    var countDup = 0;
+    var flip =false;
+    
+    for(var i =0;i<arr.length;i++){
+        if(flip===true){
+            countDup++;
+            flip=false;
+        }
+        for(var y=i+1;y<arr.length;y++){
+            if(arr[i]===arr[y]){
+                flip=true;
+            }
+        }
+    }
+    return countDup;
+}
