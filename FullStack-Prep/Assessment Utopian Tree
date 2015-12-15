@@ -1,0 +1,24 @@
+/*
+ * Complete the function below.
+ */
+function getHeight(cycles) {
+    
+    var curHeight = 1;
+    
+    if(cycles%2===0){
+         for(var i =0; i<cycles/2;i++){
+            curHeight*=2;
+            curHeight+=1;
+        }
+    }
+    
+    else {
+        for(var n =0; n<Math.floor(cycles/2);n++){
+            curHeight*=2;
+            curHeight+=1;
+        }
+        curHeight*=2;
+    }
+    return curHeight;
+}
+getHeight(5);
