@@ -1,0 +1,15 @@
+/*
+ * Complete the function below.
+ */
+function areYouPlayingBanjo(name) {
+    var firstLetter = name.toLowerCase().charAt(0);
+    if(firstLetter==='s'){
+        return name + " plays banjo!";
+    }
+    else{
+        return name +" does not play banjo!";
+    }
+
+}
+
+areYouPlayingBanjo("Immad");
