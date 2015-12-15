@@ -1,0 +1,9 @@
+/*
+ * Complete the function below.
+ */
+function maxOfThree(num1, num2, num3) {
+    
+    return Math.max(num1, num2, num3);
+}
+
+maxOfThree(1,4,6)
