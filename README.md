@@ -1,4 +1,4 @@
 # Javascript
 Intro to JavaScript!
 
-Going through javascript Challenges
+Going through javascript Challenges from FullStack Academy and CoderBytes!
